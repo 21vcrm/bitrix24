@@ -24,6 +24,8 @@ p, h1, h2, h3, .order-implementation-tarif-bitrix24 {
     align-items: center;
     justify-content: center;
     margin: 60px;
+    margin-left: 370px;
+    transition: 1s cubic-bezier(.1, .65, .9, 1);
 }
 .element-tarif-bitrix24 {
     display: flex;
@@ -125,5 +127,34 @@ p {
     cursor: pointer;
 }
 .enterprice-bitrix24 {
+    visibility: hidden;
+}
+.free-btn-conteiner-bitrix24 {
+    background-color: #30d4c7;
+    display: flex;
+    width: 36px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    left: 14px;
+    z-index: 3;
+    top: 150px;
     display: none;
+}
+.enterprice-btn-conteiner-bitrix24 {
+    background-color: #30d4c7;
+    display: flex;
+    width: 36px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    right: 14px;
+    z-index: 3;
+    top: 150px;
+}
+.free-btn-bitrix24, .enterprice-btn-bitrix24{
+    color: white;
+    writing-mode: vertical-rl;
+    margin-top: 14px;
+    margin-left: -2px;
 }
