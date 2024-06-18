@@ -1,45 +1,130 @@
 let gb_enterprice_bitrix24 = document.querySelector(".gb-enterprice-bitrix24"),
     price_enterprice_bitrix24 = document.querySelector(".price-enterprice-bitrix24"),
-    users_250_bitrix24 = document.querySelector(".users-250-bitrix24"),
-    users_500_bitrix24 = document.querySelector(".users-500-bitrix24"),
-    users_1000_bitrix24 = document.querySelector(".users-1000-bitrix24"),
-    users_2000_bitrix24 = document.querySelector(".users-2000-bitrix24"),
-    users_3000_bitrix24 = document.querySelector('.users-3000-bitrix24'),
-    users_4000_bitrix24 = document.querySelector(".users-4000-bitrix24"),
-    users_5000_bitrix24 = document.querySelector(".users-5000-bitrix24"),
-    users_6000_bitrix24 = document.querySelector(".users-6000-bitrix24"),
-    users_7000_bitrix24 = document.querySelector(".users-7000-bitrix24"), 
-    users_8000_bitrix24 = document.querySelector(".users-8000-bitrix24"),
-    users_9000_bitrix24 = document.querySelector(".users-9000-bitrix24"),
-    users_10000_bitrix24 = document.querySelector(".users-10000-bitrix24"),
     users_content_bitrix24 = document.querySelector(".users-content-bitrix24"),
     users_enterprice_bitrix24 = document.querySelector(".users-enterprice-bitrix24"),
     free_btn_conteiner_bitrix24 = document.querySelector(".free-btn-conteiner-bitrix24"),
     enterprice_btn_conteiner_bitrix24 = document.querySelector(".enterprice-btn-conteiner-bitrix24"),
     conteiner_name_main_tarif_bitrix24 = document.querySelector(".conteiner-name-main-tarif-bitrix24"),
     free_bitrix24 = document.querySelector(".free-bitrix24"),
-    enterprice_bitrix24 = document.querySelector(".enterprice-bitrix24")
+    enterprice_bitrix24 = document.querySelector(".enterprice-bitrix24"),
+    user_enterprice_bitrix24 = document.querySelector(".user-enterprice-bitrix24")
 
-free_btn_conteiner_bitrix24.addEventListener("click", function() {
-    conteiner_name_main_tarif_bitrix24.style.marginLeft = '990px'
+function change_free_btn_bitrix24() {
+    conteiner_name_main_tarif_bitrix24.style.left = '170px'
     free_btn_conteiner_bitrix24.style.display = 'none'
     enterprice_btn_conteiner_bitrix24.style.display = 'block'
     free_bitrix24.style.visibility = 'visible'
     enterprice_bitrix24.style.visibility = 'hidden'
     conteiner_name_main_tarif_bitrix24.style.transitionTimingFunction = 'linear'
-})
-    
-enterprice_btn_conteiner_bitrix24.addEventListener("click", function() {
-    conteiner_name_main_tarif_bitrix24.style.marginRight = '670px'
+}
+
+function change_enterprice_btn_bitrix24() {
+    conteiner_name_main_tarif_bitrix24.style.left = '-140px'
     free_btn_conteiner_bitrix24.style.display = 'block'
     enterprice_btn_conteiner_bitrix24.style.display = 'none'
     free_bitrix24.style.visibility = 'hidden'
     enterprice_bitrix24.style.visibility = 'visible'
     conteiner_name_main_tarif_bitrix24.style.transitionTimingFunction = 'linear'
-})
+}
 
-users_enterprice_bitrix24.addEventListener("click", function() {
+function change_user_bitrix24() {
     users_content_bitrix24.style.display = 'block'
     users_enterprice_bitrix24.style.backgroundColor = 'white'
     users_enterprice_bitrix24.style.border = 'none'
-})
+}
+
+function users250_bitrix24() {
+    price_enterprice_bitrix24.textContent = '33 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '250'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users500_bitrix24() {
+    price_enterprice_bitrix24.textContent = '59 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '500'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users1000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '99 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '1000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users2000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '199 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '2000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users3000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '299 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '3000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users4000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '399 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '4000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users5000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '499 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '5000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users6000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '599 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '6000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users7000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '699 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '7000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users8000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '799 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '8000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users9000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '899 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '9000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
+
+function users10000_bitrix24() {
+    price_enterprice_bitrix24.textContent = '999 990 ₽/мес'
+    users_content_bitrix24.style.display = 'none'
+    user_enterprice_bitrix24.textContent = '10000'
+    users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
+    users_enterprice_bitrix24.style.border = '2px solid grey'
+}
