@@ -39,6 +39,7 @@ function users250_bitrix24() {
     user_enterprice_bitrix24.textContent = '250'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '3 ТБ'
 }
 
 function users500_bitrix24() {
@@ -47,6 +48,7 @@ function users500_bitrix24() {
     user_enterprice_bitrix24.textContent = '500'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '5 ТБ'
 }
 
 function users1000_bitrix24() {
@@ -55,6 +57,7 @@ function users1000_bitrix24() {
     user_enterprice_bitrix24.textContent = '1000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '10 ТБ'
 }
 
 function users2000_bitrix24() {
@@ -63,6 +66,7 @@ function users2000_bitrix24() {
     user_enterprice_bitrix24.textContent = '2000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '20 ТБ'
 }
 
 function users3000_bitrix24() {
@@ -71,6 +75,7 @@ function users3000_bitrix24() {
     user_enterprice_bitrix24.textContent = '3000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '30 ТБ'
 }
 
 function users4000_bitrix24() {
@@ -79,6 +84,7 @@ function users4000_bitrix24() {
     user_enterprice_bitrix24.textContent = '4000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '40 ТБ'
 }
 
 function users5000_bitrix24() {
@@ -87,6 +93,7 @@ function users5000_bitrix24() {
     user_enterprice_bitrix24.textContent = '5000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '50 ТБ'
 }
 
 function users6000_bitrix24() {
@@ -95,6 +102,7 @@ function users6000_bitrix24() {
     user_enterprice_bitrix24.textContent = '6000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '60 ТБ'
 }
 
 function users7000_bitrix24() {
@@ -103,6 +111,7 @@ function users7000_bitrix24() {
     user_enterprice_bitrix24.textContent = '7000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '70 ТБ'
 }
 
 function users8000_bitrix24() {
@@ -111,6 +120,7 @@ function users8000_bitrix24() {
     user_enterprice_bitrix24.textContent = '8000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '80 ТБ'
 }
 
 function users9000_bitrix24() {
@@ -119,6 +129,7 @@ function users9000_bitrix24() {
     user_enterprice_bitrix24.textContent = '9000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '90 ТБ'
 }
 
 function users10000_bitrix24() {
@@ -127,4 +138,5 @@ function users10000_bitrix24() {
     user_enterprice_bitrix24.textContent = '10000'
     users_enterprice_bitrix24.style.backgroundColor = 'rgb(242, 242, 242)'
     users_enterprice_bitrix24.style.border = '2px solid grey'
+    gb_enterprice_bitrix24.textContent = '100 ТБ'
 }
