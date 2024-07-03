@@ -164,6 +164,7 @@ p {
 .create-free-bitrix24 {
     border: 1px solid #30d4c7; 
     padding: 11px;
+    background-color: #80e5dd;
 }
 .create-free-bitrix24 a {
     color: black; 
